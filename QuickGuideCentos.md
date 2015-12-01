@@ -27,7 +27,7 @@ tree -C -L 1 /
 
 --------------
 
-###Change localhost name
+####Change localhost name
 ```bash
 vi /etc/hostname
 ```
@@ -45,3 +45,8 @@ shutdown -r now
 
 
 -----------------
+####Connect to SSH
+```
+ssh root@localhost -oPort=2222
+```
+
