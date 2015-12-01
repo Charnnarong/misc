@@ -3,9 +3,15 @@
 ```Bash
 tree -C -L 1 /
 ```
-dirctory
-/ root,higest level in the hierarchy
-/bin command binary (grep,awk,etc.)
-/
+
+| dirctory        | Description  |
+| ------------- |:-------------:| 
+ /    | root,higest level in the hierarchy 
+ /bin     | command binary (grep,awk,etc.)
+/boot | boot loader , kernel
+/dev | sytem device (disk,etc)
+/   
+
+
 
 --------------
