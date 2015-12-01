@@ -1,6 +1,6 @@
 # Centos Quick guide.
 **************
-```Bash
+```bash
 tree -C -L 1 /
 ```
 
@@ -25,6 +25,13 @@ tree -C -L 1 /
 /user | another place for applications
 /var | varialbe files (e.g. logs)
 
-sssss
-
 --------------
+
+###Change localhost name
+```bash
+vi /etc/hostname
+```
+1. Change the name as needed.
+restart the system.
+
+-----------------
