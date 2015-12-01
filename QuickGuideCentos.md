@@ -32,6 +32,16 @@ tree -C -L 1 /
 vi /etc/hostname
 ```
 1. Change the name as needed.
-restart the system.
+
+2. add host name mapping
+```
+vi /etc/host
+```
+
+3. restart system
+```
+shutdown -r now
+```
+
 
 -----------------
