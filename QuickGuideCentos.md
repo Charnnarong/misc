@@ -31,12 +31,12 @@ tree -C -L 1 /
 ```bash
 vi /etc/hostname
 ```
-1. Change the name as needed.
-2. add host name mapping
+1 Change the name as needed.
+2 add host name mapping
 ```
 vi /etc/host
 ```
-3. restart system
+3 restart system
 ```
 shutdown -r now
 ```
