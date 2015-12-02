@@ -50,3 +50,21 @@ shutdown -r now
 ssh root@localhost -oPort=2222
 ```
 
+
+----------------------
+#### Add user
+```
+useradd kone
+```
+```
+passwd kone
+```
+enter password and confirm.
+
+```
+visudo
+```
+then add user under root.
+
+
+
