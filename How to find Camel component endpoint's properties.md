@@ -21,7 +21,8 @@ From figure 1, we want to find where "concurrentConsumers" comes from.
 2.) Find where ActiveMQComponent is. To do so, press Ctrl+Shift+T in any source code.
 ![alt text](http://i.imgur.com/8Q4w7Bu.png "figure 2")
 (figure 2)
- Click OK
+Click OK
+
 -----------------
 3.) Look at a package where the component is. There will be xxxEndpoint.class, in this case "ActiveMQEndpoint.class"
 
