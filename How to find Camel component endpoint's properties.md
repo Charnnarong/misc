@@ -38,8 +38,8 @@ public class ActiveMQEndpoint extends JmsEndpoint {
 -----------------
 4.) Open Members view : Window > Show View > Other.. > Java Browsing > Members
 ![alt text](http://i.imgur.com/ZbnMi2f.png "figure 2")
-
 On the right hand side, all members (setter for property) are listed.
+
 -----------------
 That is all.
 
