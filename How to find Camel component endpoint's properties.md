@@ -42,5 +42,5 @@ On the right hand side, all members (setter for property) are listed.
 
 -----------------
 That is all.
-
+For "timer" , to find its properties available, this approach is also applied. You will be end up with "TimerEndpoint.class"
 
