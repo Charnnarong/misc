@@ -17,6 +17,7 @@ From figure 1, we want to find where "concurrentConsumers" comes from.
 		<property name="connectionFactory" ref="myConnectionFactory" />
 	</bean>
 ```
+
 -----------------
 2.) Find where ActiveMQComponent is. To do so, press Ctrl+Shift+T in any source code.
 ![alt text](http://i.imgur.com/8Q4w7Bu.png "figure 2")
@@ -38,7 +39,7 @@ public class ActiveMQEndpoint extends JmsEndpoint {
 4.) Open Members view : Window > Show View > Other.. > Java Browsing > Members
 ![alt text](http://i.imgur.com/ZbnMi2f.png "figure 2")
 
- On the right hand side, all members (setter for property) are listed.
+On the right hand side, all members (setter for property) are listed.
 -----------------
 That is all.
 
