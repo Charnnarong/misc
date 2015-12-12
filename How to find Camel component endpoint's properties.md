@@ -23,10 +23,10 @@ From figure 1, we want to find where "concurrentConsumers" comes from.
 (figure 2)
 Click OK
 -----------------
-3.) Look at a class the component is extended from, in this case "JmsComponent"
+3.) Look at a package where the component is. There will be xxxEndpoint.class, in this case "ActiveMQEndpoint"
 
 ![alt text](http://i.imgur.com/0aUS4Ul.png "figure 3")
-
+(figure 3)
 -----------------
 4.) Open Members view : Window > Show View > Other.. > Java Browsing > Members
 ![alt text](http://i.imgur.com/dCcB3p7.png "figure 4")
