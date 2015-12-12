@@ -21,21 +21,23 @@ From figure 1, we want to find where "concurrentConsumers" comes from.
 2.) Find where ActiveMQComponent is. To do so, press Ctrl+Shift+T in any source code.
 ![alt text](http://i.imgur.com/8Q4w7Bu.png "figure 2")
 (figure 2)
-Click OK
+ Click OK
 -----------------
-3.) Look at a package where the component is. There will be xxxEndpoint.class, in this case "ActiveMQEndpoint"
+3.) Look at a package where the component is. There will be xxxEndpoint.class, in this case "ActiveMQEndpoint.class"
 
 ![alt text](http://i.imgur.com/0aUS4Ul.png "figure 3")
 (figure 3)
+
+Open an extends class if it was presented. In this case "JmsEndpoint"
+```java
+public class ActiveMQEndpoint extends JmsEndpoint {
+```
+
 -----------------
 4.) Open Members view : Window > Show View > Other.. > Java Browsing > Members
-![alt text](http://i.imgur.com/dCcB3p7.png "figure 4")
+![alt text](http://i.imgur.com/ZbnMi2f.png "figure 2")
 
-```java
-    public void setConcurrentConsumers(int concurrentConsumers) {
-        getConfiguration().setConcurrentConsumers(concurrentConsumers);
-    }
-```
+ On the right hand side, all members (setter for property) are listed.
 -----------------
 That is all.
 
