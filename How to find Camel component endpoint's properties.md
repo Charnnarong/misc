@@ -17,25 +17,26 @@ From figure 1, we want to find where "concurrentConsumers" comes from.
 		<property name="connectionFactory" ref="myConnectionFactory" />
 	</bean>
 ```
-
+-----------------
 2.) Find where ActiveMQComponent is. To do so, press Ctrl+Shift+T in any source code.
 ![alt text](http://i.imgur.com/8Q4w7Bu.png "figure 2")
 (figure 2)
 Click OK
-
+-----------------
 3.) Look at a class the component is extended from, in this case "JmsComponent"
-```java
-public class ActiveMQComponent extends JmsComponent implements EndpointCompleter {
-```
 
+![alt text](http://i.imgur.com/0aUS4Ul.png "figure 3")
+
+-----------------
 4.) Open Members view : Window > Show View > Other.. > Java Browsing > Members
-![alt text](http://i.imgur.com/dCcB3p7.png "figure 3")
+![alt text](http://i.imgur.com/dCcB3p7.png "figure 4")
 
 ```java
     public void setConcurrentConsumers(int concurrentConsumers) {
         getConfiguration().setConcurrentConsumers(concurrentConsumers);
     }
 ```
+-----------------
 That is all.
 
 
