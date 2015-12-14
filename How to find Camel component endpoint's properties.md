@@ -11,7 +11,7 @@
 From figure 1, we want to find where "concurrentConsumers" comes from.
 
 -----------------
-1.) Look where jms definded. Which is
+1.) Look where jms is definded. Which is
 ```xml
 	<bean id="jms" class="org.apache.activemq.camel.component.ActiveMQComponent">
 		<property name="connectionFactory" ref="myConnectionFactory" />
